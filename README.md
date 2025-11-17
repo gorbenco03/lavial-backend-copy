@@ -527,7 +527,7 @@ Pentru întrebări sau probleme:
 
 **Chiril Gorbenco**
 
-- GitHub: [@chirilgorbenco](https://github.com/chirilgorbenco)
+- GitHub: [@gorbenco03](https://github.com/gorbenco03)
 - LinkedIn: [Chiril Gorbenco](https://linkedin.com/in/chiril-gorbenco)
 
 ---
