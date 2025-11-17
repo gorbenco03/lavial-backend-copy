@@ -1,0 +1,12 @@
+npx ts-node -r dotenv/config -e "
+  (async () => {
+    const { connectDatabase } = await import('./src/config/database');
+    const { Booking } = await import('./src/models');
+
+    await connectDatabase();
+    await Booking.updateOne({ bookingId: 'BK-1E820AE4' }, { status: 'paid' });
+    const updated = await Booking.findOne({ bookingId: 'BK-1E820AE4' });
+    console.log('New status:', updated?.status);
+    process.exit(0);
+  })();
+"
